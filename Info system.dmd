@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Info system" id="F69F5CA9-DD8B-8739-78C3-6988D37B6899" version="3.5">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:50:21 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F69F5CA9-DD8B-8739-78C3-6988D37B6899</designId>
+</OSDM_Design>

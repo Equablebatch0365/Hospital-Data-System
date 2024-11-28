@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="094E40D6-FEF9-B489-39CB-E7C2600BA3A9">
+<createdBy>Dell User</createdBy>
+<modifiedBy>Dell User</modifiedBy>
+<createdTime>2024-09-15 18:51:42 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="19CAFE08-39F8-8CC4-4742-1F87A7D253C0" otype="Entity" vid="2F3EFD6C-87F8-6B36-01A0-EF6D212C3F02">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="246" y="25" width="171" height="105"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9103A8CB-65D8-4D1A-5A80-9EC811A03EEA" otype="Entity" vid="7C5E232C-EBD8-2956-154D-D850F1D9843A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="22" y="23" width="156" height="117"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F721A16E-B238-BF7D-E5BA-4E5D19437DFD" otype="Relation" vid_source="7C5E232C-EBD8-2956-154D-D850F1D9843A" vid_target="2F3EFD6C-87F8-6B36-01A0-EF6D212C3F02">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="178" y="77"/>
+<point x="246" y="77"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

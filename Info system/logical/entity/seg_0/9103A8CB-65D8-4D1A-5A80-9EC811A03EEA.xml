@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9103A8CB-65D8-4D1A-5A80-9EC811A03EEA" name="Product_Category">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:51:42 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CategoryID" id="6178EB19-B59A-4B97-0AA7-6802DCA20749">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:53:46 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CategoryName" id="76BEF9BF-9F6F-D99F-9244-13E57048B11F">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:54:36 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductID" id="009DE6AC-E849-41EF-88F1-2D9A51F0E8E5">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:51:55 UTC</createdTime>
+<generatorID>F721A16E-B238-BF7D-E5BA-4E5D19437DFD</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<referedAttribute>E36BAF72-CCDD-3DB0-48F8-A3BDE8D443FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="841412B7-A578-7668-D896-912CD6CC567F" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:55:03 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6178EB19-B59A-4B97-0AA7-6802DCA20749,F721A16E-B238-BF7D-E5BA-4E5D19437DFD</newElementsIDs>
+<usedAttributes>
+<attributeRef>6178EB19-B59A-4B97-0AA7-6802DCA20749</attributeRef>
+<attributeRef>009DE6AC-E849-41EF-88F1-2D9A51F0E8E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3BD0258-AFC0-B720-44BA-5559DFDFFCBC" name="Nurse">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:05:44 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nurse_ID" id="BD7F322D-E740-BCF9-72F0-8A1F00069A83">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:05:55 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="0B42284C-E9E8-C942-F12A-420256E6B594">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:05:55 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="88C0DCF9-A0A0-1085-6DFE-1C16323260E7">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:05:55 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ward_No" id="5EC56735-EE06-0A7F-BFB5-AB8057799998">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:05:56 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Shift_ID" id="BC0B29B9-6EA1-7725-53B5-F00D8375C2C1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:05:56 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20DF3722-B1FF-8CCA-B240-E6922D0B4314" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:07:32 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BD7F322D-E740-BCF9-72F0-8A1F00069A83</newElementsIDs>
+<usedAttributes>
+<attributeRef>BD7F322D-E740-BCF9-72F0-8A1F00069A83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

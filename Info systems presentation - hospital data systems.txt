@@ -1,0 +1,374 @@
+Group 17 Presentation Codes - Group Members
+1. Mokekoloana Modiba - 224813838
+2. Linda Skhosana - 224494481
+3. Vuyelo Hlungwane  - 224482815
+4. Lesedi Motau - 240741684
+5. Jessica Sewape - 223606766
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Doctor table
+CREATE TABLE Doctor (
+    DoctorID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Speciality VARCHAR(150),
+    PhoneNum VARCHAR(10),
+    Email VARCHAR(255)
+);
+Alter TABLE Doctor
+Modify (DoctorID INT NOT NUll);
+describe doctor;
+
+ALTER TABLE doctor
+ADD (
+    APPOINTMENTID NUMBER(38),
+    PRESCRIPTIONID NUMBER(38),
+    PATIENTID NUMBER(38)
+);
+
+INSERT ALL
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (0, 'Charles', 'Scott', 'Radiologist', '0721345678', 'charles.scott@gmail.com', 1, 1, 1)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (1, 'John', 'Smith', 'Cardiologist', '0712345678', 'john.smith@hotmail.com', 2, 2, 2)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (2, 'Mary', 'Johnson', 'Neurologist', '0723456789', 'mary.johnson@gmail.com', 3, 3, 3)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (3, 'James', 'Brown', 'Dermatologist', '0734567890', 'james.brown@outlook.com', 4, 4, 4)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (4, 'Patricia', 'Garcia', 'Oncologist', '0745678901', 'patricia.garcia@hotmail.com', 5, 5, 5)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (5, 'Michael', 'Martinez', 'Pediatrician', '0756789012', 'michael.martinez@gmail.com', 6, 6, 6)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (6, 'Linda', 'Rodriguez', 'Gynecologist', '0767890123', 'linda.rodriguez@outlook.com', 7, 7, 7)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (7, 'Robert', 'Wilson', 'Orthopedic Surgeon', '0778901234', 'robert.wilson@hotmail.com', 8, 8, 8)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (8, 'Barbara', 'Lee', 'General Surgeon', '0789012345', 'barbara.lee@gmail.com', 9, 9, 9)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (9, 'William', 'Hernandez', 'Psychiatrist', '0790123456', 'william.hernandez@outlook.com', 10, 10, 10)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (10, 'Elizabeth', 'King', 'Endocrinologist', '0710234567', 'elizabeth.king@hotmail.com', 11, 11, 11)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (12, 'Jennifer', 'Green', 'Gastroenterologist', '0732456789', 'jennifer.green@outlook.com', 13, 13, 13)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (13, 'Anthony', 'Walker', 'Pulmonologist', '0743567899', 'anthony.walker@gmail.com', 14, 14, 14)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (14, 'Susan', 'Baker', 'Allergist', '0754678901', 'susan.baker@gmail.com', 15, 15, 15)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (15, 'Christopher', 'Gonzalez', 'Nephrologist', '0765789012', 'christopher.gonzalez@outlook.com', 16, 16, 16)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (16, 'Karen', 'Nelson', 'Ophthalmologist', '0776890123', 'karen.nelson@hotmail.com', 17, 17, 17)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (17, 'Daniel', 'Carter', 'Urologist', '0787901234', 'daniel.carter@gmail.com', 18, 18, 18)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (18, 'Nancy', 'Mitchell', 'Rheumatologist', '0798012345', 'nancy.mitchell@gmail.com', 19, 19, 19)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (19, 'Matthew', 'Perez', 'Anesthesiologist', '0719123456', 'matthew.perez@hotmail.com', 20, 20, 20)
+    INTO Doctor (DoctorID, FirstName, LastName, Speciality, PhoneNum, Email, AppointmentID, PrescriptionID, PatientID) VALUES (20, 'Laura', 'Stevens', 'Hematologist', '0734890123', 'laura.stevens@hotmail.com', 21, 21, 21)
+SELECT * FROM dual;
+
+
+ DELETE FROM doctor WHERE doctorid=20;
+
+SELECT * FROM doctor;
+
+UPDATE doctor SET doctor.doctorid=20 WHERE doctor.doctorid=21;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Patient table
+CREATE TABLE Patient (
+    PatientID INT PRIMARY KEY,
+    PatientName VARCHAR(15),
+    Gender VARCHAR(10),
+    Address VARCHAR(30),
+    PhoneNum VARCHAR(15),
+    Email VARCHAR(255),
+    DoctorID INT,
+    MedicalNo INT,
+    WardNo INT,
+    PaymentID INT,
+    FOREIGN KEY (DoctorID) REFERENCES Doctor(DoctorID),
+    FOREIGN KEY (MedicalNo) REFERENCES MedicalAid(MedicalNo),
+    FOREIGN KEY (WardNo) REFERENCES Ward(WardNo),
+    FOREIGN KEY (PaymentID) REFERENCES Payment(PaymentID)
+);
+ SELECT * FROM patient;
+ 
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (1, 'John Doe', 'Male', '123 Maple St', '0723456789', 'johndoe@gmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (2, 'Jane Smith', 'Female', '456 Oak Ave', '0734567890', 'janesmith@hotmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (3, 'Alice Brown', 'Female', '789 Pine Rd', '0745678901', 'alicebrown@outlook.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (4, 'Robert Black', 'Male', '321 Cedar Blvd', '0756789012', 'robertblack@gmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (5, 'Emily White', 'Female', '654 Elm St', '0767890123', 'emilywhite@hotmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (6, 'Daniel Green', 'Male', '987 Willow Dr', '0778901234', 'danielgreen@outlook.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (7, 'Olivia Taylor', 'Female', '159 Maple Ln', '0789012345', 'oliviataylor@gmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (8, 'Henry Johnson', 'Male', '753 Birch St', '0790123456', 'henryjohnson@hotmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (9, 'Sophia Lee', 'Female', '951 Spruce St', '0701234567', 'sophialee@outlook.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (10, 'Michael Davis', 'Male', '852 Redwood Rd', '0712345678', 'michaeldavis@gmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (11, 'Isabel Mart', 'Female', '741 Ash St', '0723456789', 'isabelmart@hotmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (12, 'Jacob Wilson', 'Male', '963 Fir Dr', '0734567890', 'jacobwilson@outlook.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (13, 'Mia Anderson', 'Female', '284 Poplar St', '0745678901', 'miaanderson@gmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (14, 'Ethan Thomas', 'Male', '128 Alder Rd', '0756789012', 'ethanthomas@hotmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (15, 'Amelia Walker', 'Female', '456 Juniper Ave', '0767890123', 'ameliawalker@outlook.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (16, 'Mason Moore', 'Male', '789 Dogwood Blvd', '0778901234', 'masonmoore@gmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (17, 'Charlotte White', 'Female', '159 Sycamore Ln', '0789012345', 'charlottewhite@hotmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (18, 'James Brown', 'Male', '321 Magnolia Rd', '0790123456', 'jamesbrown@outlook.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (19, 'Ava Scott', 'Female', '654 Hawthorn St', '0701234567', 'avascott@gmail.com');
+INSERT INTO patient (PatientID, PatientName, Gender, Address, PhoneNum, Email) VALUES (20, 'Logan King', 'Male', '987 Bay St', '0712345678', 'loganking@hotmail.com');
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ -- Ward table
+CREATE TABLE Ward (
+    WardNo INT PRIMARY KEY,
+    WardType VARCHAR(10)
+);
+SELECT * FROM ward;
+describe ward;
+
+
+ALTER TABLE Ward
+ADD (
+    PATIENTID NUMBER(38),
+    NURSEID NUMBER(38)
+);
+ALTER TABLE Ward
+ADD CONSTRAINT fk_PatientID FOREIGN KEY (PatientID) REFERENCES Patient(PatientID);
+
+ALTER TABLE Ward
+ADD CONSTRAINT fk_NurseID FOREIGN KEY (NurseID) REFERENCES Nurse(NurseID);
+SELECT * FROM ward;
+DELETE FROM ward;
+
+UPDATE ward SET wardno=1 WHERE wardno=0;
+
+INSERT ALL
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (1, 'General', 1, 1)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (2, 'Surgical', 2, 2)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (3, 'Maternity', 3, 3)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (4, 'Pediatric', 4, 4)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (5, 'Psych', 5, 5)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (6, 'Psych', 6, 6)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (7, 'Oncology', 7, 7)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (8, 'Cardiology', 8, 8)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (9, 'Neurology', 9, 9)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (10, 'Orthopedic', 10, 10)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (11, 'Geriatric', 11, 11)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (12, 'Burn Unit', 12, 12)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (13, 'Rehab', 13, 13)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (14, 'Pulmonary', 14, 14)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (15, 'Digestive', 15, 15)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (16, 'Dialysis', 16, 16)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (17, 'Emergency', 17, 17)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (18, 'Trauma', 18, 18)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (19, 'Isolation', 19, 19)
+    INTO ward (WardNo, WardType, PatientID, NurseID) VALUES (20, 'Neonatal', 20, 20)
+SELECT * FROM dual;
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE TABLE Shift (
+    ShiftID INT PRIMARY KEY,
+    ShiftTime TIMESTAMP
+);
+SELECT * FROM SHIFT;
+ALTER TABLE shift
+ADD (
+    wardID NUMBER(38),
+    NURSEID NUMBER(38)
+);
+
+ALTER TABLE Shift
+ADD CONSTRAINT fk_WARDID FOREIGN KEY (WARDID) REFERENCES Ward(WARDNO);
+
+ALTER TABLE Shift
+ADD CONSTRAINT fk_NurseID_New FOREIGN KEY (NURSEID) REFERENCES Nurse(NURSEID);
+
+SELECT * FROM shift;
+DELETE FROM shift;
+
+INSERT ALL
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (1, TO_TIMESTAMP('01/NOV/24 07:00:00', 'DD/MON/YY HH24:MI:SS'), 1, 1)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (2, TO_TIMESTAMP('01/NOV/24 15:00:00', 'DD/MON/YY HH24:MI:SS'), 2, 2)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (3, TO_TIMESTAMP('01/NOV/24 23:00:00', 'DD/MON/YY HH24:MI:SS'), 3, 3)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (4, TO_TIMESTAMP('02/NOV/24 07:00:00', 'DD/MON/YY HH24:MI:SS'), 4, 4)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (5, TO_TIMESTAMP('02/NOV/24 15:00:00', 'DD/MON/YY HH24:MI:SS'), 5, 5)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (6, TO_TIMESTAMP('02/NOV/24 23:00:00', 'DD/MON/YY HH24:MI:SS'), 6, 6)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (7, TO_TIMESTAMP('03/NOV/24 07:00:00', 'DD/MON/YY HH24:MI:SS'), 7, 7)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (8, TO_TIMESTAMP('03/NOV/24 15:00:00', 'DD/MON/YY HH24:MI:SS'), 8, 8)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (9, TO_TIMESTAMP('03/NOV/24 23:00:00', 'DD/MON/YY HH24:MI:SS'), 9, 9)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (10, TO_TIMESTAMP('04/NOV/24 07:00:00', 'DD/MON/YY HH24:MI:SS'), 10, 10)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (11, TO_TIMESTAMP('04/NOV/24 15:00:00', 'DD/MON/YY HH24:MI:SS'), 11, 11)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (12, TO_TIMESTAMP('04/NOV/24 23:00:00', 'DD/MON/YY HH24:MI:SS'), 12, 12)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (13, TO_TIMESTAMP('05/NOV/24 07:00:00', 'DD/MON/YY HH24:MI:SS'), 13, 13)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (14, TO_TIMESTAMP('05/NOV/24 15:00:00', 'DD/MON/YY HH24:MI:SS'), 14, 14)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (15, TO_TIMESTAMP('05/NOV/24 23:00:00', 'DD/MON/YY HH24:MI:SS'), 15, 15)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (16, TO_TIMESTAMP('06/NOV/24 07:00:00', 'DD/MON/YY HH24:MI:SS'), 16, 16)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (17, TO_TIMESTAMP('06/NOV/24 15:00:00', 'DD/MON/YY HH24:MI:SS'), 17, 17)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (18, TO_TIMESTAMP('06/NOV/24 23:00:00', 'DD/MON/YY HH24:MI:SS'), 18, 18)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (19, TO_TIMESTAMP('07/NOV/24 07:00:00', 'DD/MON/YY HH24:MI:SS'), 19, 19)
+    INTO shift (ShiftID, ShiftTime, WardID, NurseID) VALUES (20, TO_TIMESTAMP('07/NOV/24 15:00:00', 'DD/MON/YY HH24:MI:SS'), 20, 20)
+SELECT * FROM dual;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Medical Aid table
+CREATE TABLE MedicalAid (
+    MedicalNo INT PRIMARY KEY,
+    MedicalAidType VARCHAR(150)
+);
+ SELECT * FROM medicalaid;
+
+CREATE TABLE MedicalAid (
+    MedicalNo INT PRIMARY KEY,
+    MedicalAidType VARCHAR(150)
+);
+ SELECT * FROM medicalaid;
+ ALTER TABLE medicalaid
+ADD (
+    PATIENTID NUMBER(38)
+);
+ALTER TABLE medicalaid
+ADD CONSTRAINT fk_medicalaid_patientid FOREIGN KEY (PATIENTID) REFERENCES PATIENT(PATIENTID);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1001, 'Basic Cover', 1);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1002, 'Comprehensive Cover', 2);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1003, 'Family Cover', 3);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1004, 'Student Plan', 4);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1005, 'Senior Citizen Cover', 5);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1006, 'Hospital Plan', 6);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1007, 'Executive Plan', 7);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1008, 'Chronic Illness Cover', 8);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1009, 'Maternity Plan', 9);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1010, 'Emergency Only', 10);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1011, 'Dental and Optical', 11);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1012, 'Essential Cover', 12);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1013, 'Travel Insurance', 13);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1014, 'Premium Plan', 14);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1015, 'Specialist Cover', 15);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1016, 'Standard Cover', 16);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1017, 'Pensioner Plan', 17);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1018, 'Corporate Cover', 18);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1019, 'Individual Plan', 19);
+INSERT INTO MedicalAid (MedicalNo, MedicalAidType, PatientID) VALUES (1020, 'Comprehensive Plus', 20);
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE TABLE Payment (
+    PaymentID INT PRIMARY KEY,
+    PaymentDate DATE,
+    PaymentTime TIMESTAMP
+);
+ALTER TABLE Payment
+ADD (
+    PATIENTID NUMBER(38)
+);
+
+ALTER TABLE payment
+ADD CONSTRAINT fk_payment_patientid FOREIGN KEY (PATIENTID) REFERENCES PATIENT(PATIENTID);
+
+
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2001, DATE '2024-01-01', TIMESTAMP '2024-01-01 10:15:00', 1);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2002, DATE '2024-01-02', TIMESTAMP '2024-01-02 12:30:00', 2);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2003, DATE '2024-01-03', TIMESTAMP '2024-01-03 09:45:00', 3);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2004, DATE '2024-01-04', TIMESTAMP '2024-01-04 14:00:00', 4);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2005, DATE '2024-01-05', TIMESTAMP '2024-01-05 08:20:00', 5);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2006, DATE '2024-01-06', TIMESTAMP '2024-01-06 11:10:00', 6);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2007, DATE '2024-01-07', TIMESTAMP '2024-01-07 13:50:00', 7);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2008, DATE '2024-01-08', TIMESTAMP '2024-01-08 15:05:00', 8);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2009, DATE '2024-01-09', TIMESTAMP '2024-01-09 10:35:00', 9);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2010, DATE '2024-01-10', TIMESTAMP '2024-01-10 14:45:00', 10);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2011, DATE '2024-01-11', TIMESTAMP '2024-01-11 09:55:00', 11);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2012, DATE '2024-01-12', TIMESTAMP '2024-01-12 11:25:00', 12);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2013, DATE '2024-01-13', TIMESTAMP '2024-01-13 15:40:00', 13);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2014, DATE '2024-01-14', TIMESTAMP '2024-01-14 10:10:00', 14);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2015, DATE '2024-01-15', TIMESTAMP '2024-01-15 13:15:00', 15);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2016, DATE '2024-01-16', TIMESTAMP '2024-01-16 08:30:00', 16);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2017, DATE '2024-01-17', TIMESTAMP '2024-01-17 12:45:00', 17);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2018, DATE '2024-01-18', TIMESTAMP '2024-01-18 14:25:00', 18);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2019, DATE '2024-01-19', TIMESTAMP '2024-01-19 09:05:00', 19);
+INSERT INTO Payment (PaymentID, PaymentDate, PaymentTime, PatientID) VALUES (2020, DATE '2024-01-20', TIMESTAMP '2024-01-20 16:30:00', 20);
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE TABLE Nurse (
+    NurseID INT PRIMARY KEY,
+    NurseName VARCHAR(100),
+    Email VARCHAR(80),
+    WardNo INT,
+    ShiftID INT,
+    FOREIGN KEY (WardNo) REFERENCES Ward(WardNo),
+    FOREIGN KEY (ShiftID) REFERENCES Shift(ShiftID)
+);
+
+SELECT * FROM nurse;
+
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (1, 'Anna Smith', 'anna.smith@hotmail.com', 1, 1);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (2, 'James Green', 'james.green@gmail.com', 2, 2);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (3, 'Lily Brown', 'lily.brown@outlook.com', 3, 3);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (4, 'Ethan White', 'ethan.white@hotmail.com', 4, 1);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (5, 'Emma Walker', 'emma.walker@gmail.com', 5, 2);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (6, 'Sophia Clark', 'sophia.clark@outlook.com', 1, 3);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (7, 'Mason Lewis', 'mason.lewis@hotmail.com', 2, 1);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (8, 'Isabella Hall', 'isabella.hall@gmail.com', 3, 2);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (9, 'Lucas Allen', 'lucas.allen@outlook.com', 4, 3);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (10, 'Mia King', 'mia.king@hotmail.com', 5, 1);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (11, 'Oliver Scott', 'oliver.scott@gmail.com', 1, 2);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (12, 'Ava Perez', 'ava.perez@outlook.com', 2, 3);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (13, 'Benjamin Rivera', 'benjamin.rivera@hotmail.com', 3, 1);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (14, 'Charlotte Ramirez', 'charlotte.ramirez@gmail.com', 4, 2);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (15, 'Elijah Cox', 'elijah.cox@outlook.com', 5, 3);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (16, 'Amelia Ward', 'amelia.ward@hotmail.com', 1, 1);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (17, 'Harper Carter', 'harper.carter@gmail.com', 2, 2);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (18, 'William Diaz', 'william.diaz@outlook.com', 3, 3);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (19, 'Evelyn Flores', 'evelyn.flores@hotmail.com', 4, 1);
+INSERT INTO Nurse (NurseID, NurseName, Email, WardNo, ShiftID) VALUES (20, 'Jack Torres', 'jack.torres@gmail.com', 5, 2);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE TABLE Consultation (
+    ConsultationID INT PRIMARY KEY,
+    ConsultationDate DATE,
+    ConsultationTime TIMESTAMP,
+    Reason VARCHAR(100),
+    MedRecord VARCHAR(150),
+    PatientID INT,
+    DoctorID INT,
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID),
+    FOREIGN KEY (DoctorID) REFERENCES Doctor(DoctorID)
+);
+SELECT * FROM consultation;
+
+INSERT ALL
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (1, DATE '2024-10-15', TIMESTAMP '2024-10-15 09:30:00', 'Routine Checkup', 'No issues', 1, 1)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (2, DATE '2024-10-16', TIMESTAMP '2024-10-16 10:00:00', 'Follow-up', 'Stable', 2, 2)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (3, DATE '2024-10-17', TIMESTAMP '2024-10-17 11:30:00', 'Cold Symptoms', 'Prescribed medication', 3, 3)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (4, DATE '2024-10-18', TIMESTAMP '2024-10-18 14:00:00', 'Headache', 'Recommended rest', 4, 4)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (5, DATE '2024-10-19', TIMESTAMP '2024-10-19 15:15:00', 'Skin Rash', 'Applied ointment', 5, 5)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (6, DATE '2024-10-20', TIMESTAMP '2024-10-20 08:45:00', 'Fever', 'Prescribed antibiotics', 6, 1)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (7, DATE '2024-10-21', TIMESTAMP '2024-10-21 09:20:00', 'Back Pain', 'Suggested physiotherapy', 7, 2)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (8, DATE '2024-10-22', TIMESTAMP '2024-10-22 10:45:00', 'Diabetes Management', 'Updated prescription', 8, 3)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (9, DATE '2024-10-23', TIMESTAMP '2024-10-23 13:30:00', 'Arthritis Pain', 'New medication', 9, 4)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (10, DATE '2024-10-24', TIMESTAMP '2024-10-24 15:50:00', 'Routine Checkup', 'All normal', 10, 5)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (11, DATE '2024-10-25', TIMESTAMP '2024-10-25 08:30:00', 'Allergy', 'Prescribed antihistamines', 11, 1)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (12, DATE '2024-10-26', TIMESTAMP '2024-10-26 09:15:00', 'Sore Throat', 'Medication provided', 12, 2)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (13, DATE '2024-10-27', TIMESTAMP '2024-10-27 10:40:00', 'High Blood Pressure', 'Adjusted medication', 13, 3)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (14, DATE '2024-10-28', TIMESTAMP '2024-10-28 12:00:00', 'Sprained Ankle', 'Recommended rest', 14, 4)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (15, DATE '2024-10-29', TIMESTAMP '2024-10-29 13:20:00', 'Routine Physical', 'Health stable', 15, 5)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (16, DATE '2024-10-30', TIMESTAMP '2024-10-30 08:00:00', 'Migraine', 'Given pain relief', 16, 1)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (17, DATE '2024-10-31', TIMESTAMP '2024-10-31 09:30:00', 'Asthma Check', 'Updated inhaler', 17, 2)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (18, DATE '2024-11-01', TIMESTAMP '2024-11-01 10:10:00', 'Chest Pain', 'Recommended tests', 18, 3)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (19, DATE '2024-11-02', TIMESTAMP '2024-11-02 11:45:00', 'High Cholesterol', 'Dietary advice', 19, 4)
+    INTO Consultation (ConsultationID, ConsultationDate, ConsultationTime, Reason, MedRecord, PatientID, DoctorID) VALUES (20, DATE '2024-11-03', TIMESTAMP '2024-11-03 14:30:00', 'Diabetes Checkup', 'Prescription updated', 20, 5)
+SELECT * FROM dual;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE TABLE prescription (
+    PrescripID INT PRIMARY KEY,
+    PrescripName VARCHAR(100),
+    Dosage VARCHAR(100),
+    Frequency VARCHAR(150),
+    SideEffect VARCHAR(300),
+    PatientID INT,
+    FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+);
+
+describe prescription;
+SELECT * FROM prescription;
+
+INSERT ALL
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (1, 'Ibuprofen', '200mg', 'Twice daily', 'Nausea, dizziness', 1)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (2, 'Paracetamol', '500mg', 'Every 6 hours', 'Drowsiness, rash', 2)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (3, 'Metformin', '500mg', 'Once daily', 'Stomach upset', 3)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (4, 'Amoxicillin', '250mg', 'Three times a day', 'Diarrhea, allergic reaction', 4)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (5, 'Losartan', '50mg', 'Once daily', 'Headache, fatigue', 5)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (6, 'Omeprazole', '20mg', 'Once daily', 'Abdominal pain', 6)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (7, 'Lisinopril', '10mg', 'Once daily', 'Dizziness, cough', 7)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (8, 'Atorvastatin', '10mg', 'Once daily', 'Muscle pain, constipation', 8)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (9, 'Simvastatin', '20mg', 'Once at night', 'Liver issues, weakness', 9)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (10, 'Amlodipine', '5mg', 'Once daily', 'Swelling, fatigue', 10)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (11, 'Sertraline', '50mg', 'Once daily', 'Nausea, headache', 11)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (12, 'Warfarin', '5mg', 'Once daily', 'Bleeding risk', 12)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (13, 'Aspirin', '81mg', 'Once daily', 'Stomach upset', 13)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (14, 'Clopidogrel', '75mg', 'Once daily', 'Bleeding, itching', 14)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (15, 'Metoprolol', '50mg', 'Twice daily', 'Fatigue, depression', 15)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (16, 'Albuterol', '2mg', 'As needed', 'Tremor, nervousness', 16)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (17, 'Levothyroxine', '100mcg', 'Once daily', 'Hair loss, sweating', 17)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (18, 'Gabapentin', '300mg', 'Three times a day', 'Dizziness, fatigue', 18)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (19, 'Furosemide', '20mg', 'Once daily', 'Dehydration, low potassium', 19)
+    INTO prescription (PrescripID, PrescripName, Dosage, Frequency, SideEffect, PatientID) VALUES (20, 'Prednisone', '10mg', 'Once daily', 'Increased appetite, insomnia', 20)
+SELECT * FROM dual;
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

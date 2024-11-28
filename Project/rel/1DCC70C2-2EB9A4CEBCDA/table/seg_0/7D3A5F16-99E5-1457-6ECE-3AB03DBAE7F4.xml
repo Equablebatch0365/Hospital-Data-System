@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D3A5F16-99E5-1457-6ECE-3AB03DBAE7F4" name="Nurse">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>A3BD0258-AFC0-B720-44BA-5559DFDFFCBC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nurse_ID" id="2739C575-7A37-CB09-EDAC-FA9503B78CD1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>BD7F322D-E740-BCF9-72F0-8A1F00069A83</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="95352880-6088-E466-35B0-1BAC5F65AA8A">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>0B42284C-E9E8-C942-F12A-420256E6B594</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="2AE95064-78E1-E257-24AA-37857D0EA83E">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>88C0DCF9-A0A0-1085-6DFE-1C16323260E7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ward_No" id="F4A4A5CE-AF17-5BAD-341E-B1C25134DF1C">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>5EC56735-EE06-0A7F-BFB5-AB8057799998</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Shift_ID" id="03367D0B-356A-DCF1-F206-2FF365F28C7C">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>BC0B29B9-6EA1-7725-53B5-F00D8375C2C1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ECE9FA9-33E5-DEBA-1DB1-10D338E24245" name="Nurse_PK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>20DF3722-B1FF-8CCA-B240-E6922D0B4314</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2739C575-7A37-CB09-EDAC-FA9503B78CD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

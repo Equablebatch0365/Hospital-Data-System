@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="453A0927-309D-928E-C070-9594FC374D89" name="Doctor">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:15:13 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Doctor_ID" id="2CAFBDBD-9554-81A3-4927-377A098FC8C9">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:15:25 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="8D569249-1CC5-78CB-67A9-BE683E80B6F1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:15:26 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="27C5AB2F-316E-F98E-6F4A-C6DAAEFA395D">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:15:26 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Speciality" id="AF47A117-60CD-0651-8040-5CAD74B3A08E">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:15:26 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNum" id="04C06B4A-5DA0-A803-23C3-F1AEE052437E">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:15:26 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="874312C6-2908-5B2E-45BA-7D4FA5082C6F">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:15:26 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0CEFCA0-29B3-3B7A-840B-CA89A20A124D" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:18:14 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2CAFBDBD-9554-81A3-4927-377A098FC8C9</newElementsIDs>
+<usedAttributes>
+<attributeRef>2CAFBDBD-9554-81A3-4927-377A098FC8C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

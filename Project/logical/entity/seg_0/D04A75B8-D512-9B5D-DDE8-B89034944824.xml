@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D04A75B8-D512-9B5D-DDE8-B89034944824" name="Medical_aid">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:50:23 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Medical_no" id="7B31C21F-FDED-0CC4-859C-6D4617BCDAB0">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:50:49 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MedicalAid_Type" id="0914FA9D-DDBB-3A16-B2DC-E1A523EFA13B">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:50:49 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E540A496-7BED-023C-D467-9FD9C2136738" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:54:43 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7B31C21F-FDED-0CC4-859C-6D4617BCDAB0</newElementsIDs>
+<usedAttributes>
+<attributeRef>7B31C21F-FDED-0CC4-859C-6D4617BCDAB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

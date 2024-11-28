@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="781C986A-561E-C44C-0178-5AA3A790E6FB" name="Shift">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>D1F1E0BB-3F4C-A6E8-9EAE-A43EFE66074E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Shift_ID" id="89844101-A9FC-DFBC-AA39-14FE63E05DB2">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>462E1FB1-AC90-D95C-798D-519E8A6BCDF2</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Shift_Time" id="B3748752-FDF7-D069-A57E-A305039DF601">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>DDA6E621-113E-EC57-1616-296E1AAA712B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ward_Ward_No" id="8BD5FD85-D5E0-FF3A-F33C-99441B9201BD">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>0037B756-3886-68F0-8CDA-860E56A1EE06</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADCC569F-731C-C7AF-3D72-4FFA05530210" referredColumn="DEC90AFC-E872-5B69-F94B-AE11EE36A08D"/>
+</associations>
+</Column>
+<Column name="Nurse_Nurse_ID" id="ECF74C57-3860-7528-5437-85469164C5CD">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>5C62A9F6-3609-006A-DDB7-247871690EC4</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46F66020-7234-D5DD-8CD1-6813F48FD07C" referredColumn="2739C575-7A37-CB09-EDAC-FA9503B78CD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42B76C91-F2C7-1846-A3A4-73B7806D542B" name="Shift_PK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>A00A513D-431F-71DD-43A5-B3968B3A125C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89844101-A9FC-DFBC-AA39-14FE63E05DB2"/>
+<colUsage columnID="8BD5FD85-D5E0-FF3A-F33C-99441B9201BD"/>
+<colUsage columnID="ECF74C57-3860-7528-5437-85469164C5CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DE96DFC-EC3F-D878-0283-5C4859180872" name="Shift_Ward_FK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>FB7EDCCF-2D12-854A-A259-589A49117B05</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BD5FD85-D5E0-FF3A-F33C-99441B9201BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF5031A6-1154-B0B8-518D-D75C4636D63E" name="Shift_Nurse_FK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>4A625F1B-EE2C-3959-8FC6-DD3000133245</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECF74C57-3860-7528-5437-85469164C5CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

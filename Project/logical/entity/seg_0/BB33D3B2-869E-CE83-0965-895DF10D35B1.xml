@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB33D3B2-869E-CE83-0965-895DF10D35B1" name="Patient">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:56:46 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Patient_ID" id="1DC516D2-260C-F5F6-7E59-C788230B92A1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:56:56 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PatientName" id="7953FB20-488C-91C4-C1A3-8AF338F32CE9">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:04 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender" id="76760614-82CA-BE2C-F2B0-4874ED1535A1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:04 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="DF329176-05EA-314C-DB47-CE0D8A4895C1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:04 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_Num" id="B32F6812-BD68-75AD-2878-83B4DB0D6B02">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:04 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="007B27C6-06A1-98FE-AC15-5D82718BE483">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:05 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor_ID" id="ED768033-5EA8-D1B9-AF17-8EB52205786B">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:05 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MedAid_ID" id="DF73D31A-2D53-08CB-917A-5F6B0ADD61AF">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:05 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ward_no" id="1636B313-4F85-21E3-1CDE-662EAA32E11C">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:05 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment_No" id="7040DEB9-2164-AE47-6A9E-165AF29163CE">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 19:57:06 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ward_No1" id="CA894BDF-C0BF-7428-EAD9-B207305B6AA7">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:22:12 UTC</createdTime>
+<generatorID>3133F675-1CE4-4E7C-CEC3-C2AE19E20D8B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<referedAttribute>33F9883F-2A97-0BD6-EB6D-97EDED65F817</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Medical_no" id="ABD3E970-B4FB-93BB-17B9-1BFFB8EFE821">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:23:24 UTC</createdTime>
+<generatorID>22B43143-0CB2-712B-0C83-5BC85B439274</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<referedAttribute>7B31C21F-FDED-0CC4-859C-6D4617BCDAB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D0E3B53-8A54-CEFF-6C0C-685B2830E809" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:01:42 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1DC516D2-260C-F5F6-7E59-C788230B92A1,3133F675-1CE4-4E7C-CEC3-C2AE19E20D8B,22B43143-0CB2-712B-0C83-5BC85B439274</newElementsIDs>
+<usedAttributes>
+<attributeRef>1DC516D2-260C-F5F6-7E59-C788230B92A1</attributeRef>
+<attributeRef>CA894BDF-C0BF-7428-EAD9-B207305B6AA7</attributeRef>
+<attributeRef>ABD3E970-B4FB-93BB-17B9-1BFFB8EFE821</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

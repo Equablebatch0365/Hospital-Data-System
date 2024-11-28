@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1F1E0BB-3F4C-A6E8-9EAE-A43EFE66074E" name="Shift">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:02:50 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Shift_ID" id="462E1FB1-AC90-D95C-798D-519E8A6BCDF2">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:03:12 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Shift_Time" id="DDA6E621-113E-EC57-1616-296E1AAA712B">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:03:13 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ward_No1" id="0037B756-3886-68F0-8CDA-860E56A1EE06">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 06:51:16 UTC</createdTime>
+<generatorID>FB7EDCCF-2D12-854A-A259-589A49117B05</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<referedAttribute>33F9883F-2A97-0BD6-EB6D-97EDED65F817</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nurse_ID1" id="5C62A9F6-3609-006A-DDB7-247871690EC4">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:13:34 UTC</createdTime>
+<generatorID>4A625F1B-EE2C-3959-8FC6-DD3000133245</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<referedAttribute>BD7F322D-E740-BCF9-72F0-8A1F00069A83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A00A513D-431F-71DD-43A5-B3968B3A125C" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:04:52 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>462E1FB1-AC90-D95C-798D-519E8A6BCDF2,FB7EDCCF-2D12-854A-A259-589A49117B05,4A625F1B-EE2C-3959-8FC6-DD3000133245</newElementsIDs>
+<usedAttributes>
+<attributeRef>462E1FB1-AC90-D95C-798D-519E8A6BCDF2</attributeRef>
+<attributeRef>0037B756-3886-68F0-8CDA-860E56A1EE06</attributeRef>
+<attributeRef>5C62A9F6-3609-006A-DDB7-247871690EC4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

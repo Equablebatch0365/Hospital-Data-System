@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD8244D8-C35F-86BE-E14D-F3C1C163EA23" name="Payment">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>BB639DBD-2487-A3D9-748E-0E92C79C1823</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Payment_no" id="9E98AE67-9540-651E-AE22-40E18684406E">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>B2B900B5-FDAD-2F31-57B5-4891EE69C774</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="D60491C4-18FB-BF5A-ADCB-3EA2C98D4BB9">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>CD935F2A-EF1B-661A-CB6A-1FDA58F77AD9</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="A7D2E54E-6451-0A29-372D-8F7FE5B5B150">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>FF9ADB21-4B7C-DB3A-04A8-7623CA743956</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_Patient_ID" id="6CBF5AB8-6A14-CF10-FC01-F51E0AD1B536">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>7BF7B9A6-24C1-F2B7-AF8A-B1E43162D1F2</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC360391-8146-D5D0-C03B-DD6963CB793C" referredColumn="A188BCB5-C2D4-AF11-2E18-BC63902A3FDC"/>
+</associations>
+</Column>
+<Column name="Patient_Ward_Ward_No" id="425993EA-5B72-C7A2-08D7-3B7B00CDC9D9">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>0DB1A07E-00C6-C237-C97C-520BC171BB10</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC360391-8146-D5D0-C03B-DD6963CB793C" referredColumn="7936630E-72AB-7B10-D2B5-EBF56A1B870E"/>
+</associations>
+</Column>
+<Column name="Patient_Medical_aid_Medical_no" id="D8E8EC28-9D64-7CE4-00D5-0DC5F0CBF394">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>EC2EB3D1-AFA5-ABE0-1BC3-D3E0311534B5</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC360391-8146-D5D0-C03B-DD6963CB793C" referredColumn="8B01D51C-60E5-F18C-183B-D123A5461846"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01416B59-7A32-A2A1-2B82-96A986D0D6F0" name="Payment_PK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>7BFC32F8-CC00-F965-B500-43294CBF1038</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E98AE67-9540-651E-AE22-40E18684406E"/>
+<colUsage columnID="6CBF5AB8-6A14-CF10-FC01-F51E0AD1B536"/>
+<colUsage columnID="425993EA-5B72-C7A2-08D7-3B7B00CDC9D9"/>
+<colUsage columnID="D8E8EC28-9D64-7CE4-00D5-0DC5F0CBF394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29030A51-53DE-2358-6744-767D8222E6F4" name="Payment_Patient_FK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>03835AEA-E690-4295-C13C-6ACCF64FBDA6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CBF5AB8-6A14-CF10-FC01-F51E0AD1B536"/>
+<colUsage columnID="425993EA-5B72-C7A2-08D7-3B7B00CDC9D9"/>
+<colUsage columnID="D8E8EC28-9D64-7CE4-00D5-0DC5F0CBF394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

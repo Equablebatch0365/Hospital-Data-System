@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6E8C517-000A-390D-67A2-6306A0A0B68D" name="Product">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>19CAFE08-39F8-8CC4-4742-1F87A7D253C0</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductID" id="82C9BA55-2006-F10F-9B21-635BA1C548C6">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>E36BAF72-CCDD-3DB0-48F8-A3BDE8D443FA</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductName" id="061F74FD-37A1-941C-1F41-51A4DDA1D045">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>96D45821-1BE7-8D56-6F30-AE8B4E7D5739</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="F06C52DC-0207-3565-16E1-CD65F92FE5E3">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:52:35 UTC</createdTime>
+<generatorID>7C7742EA-89E8-97D6-CAB7-1968AC1F58E7</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAT" id="E1BF5DB9-E6E2-B597-4A44-C3F30BF07507">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:52:35 UTC</createdTime>
+<generatorID>F1992082-4AE6-F33A-7ADC-7B87D22A6281</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="50CC58BC-87B3-FCCB-E3DD-3BFFC10063A7">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:52:35 UTC</createdTime>
+<generatorID>556A4275-8BC2-95BF-0905-FA4E4EB3FAA5</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDDE4182-AA9D-DDD6-5CA0-D6F786FD314D" name="Product_PK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>16114FA9-F631-946A-9679-F87CD06BB77C</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82C9BA55-2006-F10F-9B21-635BA1C548C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

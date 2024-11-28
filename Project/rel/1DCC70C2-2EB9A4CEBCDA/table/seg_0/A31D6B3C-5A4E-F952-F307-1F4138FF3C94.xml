@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A31D6B3C-5A4E-F952-F307-1F4138FF3C94" name="Consultation">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>5957065A-DC93-8469-FFBA-696B163D5022</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Consultation_ID" id="EC7AD299-F74B-7F6A-AE40-CA7D4D6F9BD7">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>AB792B16-E29D-FD79-4413-84D27FF37E5C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ConsultationDate" id="CE8F4023-F885-71ED-1071-294A812F092E">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>B915C7D4-6E92-AF66-BC8F-E9D41F924970</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Consultation_Time" id="432C7583-992D-D9E7-B772-0D27FF6206C1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>39CDDA67-604F-AE19-4957-A7A11DB82B1A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reason" id="1863FBE2-6B81-7E0C-4FE7-FD1B66BAEB83">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>4D0A68BF-356E-8BDC-4B83-17CD3C997F14</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Med_Record" id="A88DBBC4-3596-DA15-8E27-E2F032B9C941">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>2B539BF1-B772-8039-D60C-723CF64408F7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_ID" id="262200F4-6E6D-1E00-5DDE-68539CA72EE7">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>DC0B1D10-C0FA-2EAB-1691-84084E6C1423</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doctor_ID" id="E69A0DBF-AE18-A280-AFAA-76DEB231AF08">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>7772B955-A8BE-3387-564F-B9D5E1620114</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doctor_Doctor_ID" id="1628CABF-BF87-7E0E-C495-C33D8F9252E5">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>9FAABCF9-7DE6-6C67-8E3E-A873AB1FC69C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D6BF509-FB5E-B46F-1124-4B4C35616CFD" referredColumn="757B7667-1938-BEBC-07E1-EF0BB09B220A"/>
+</associations>
+</Column>
+<Column name="Patient_Patient_ID" id="65310B35-A31B-0AF1-997F-2165FE2FDFD0">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>C1EE3602-112E-A8AB-2292-410D161FD842</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="177F6F4D-465E-7665-EB30-F4244D4C54C1" referredColumn="A188BCB5-C2D4-AF11-2E18-BC63902A3FDC"/>
+</associations>
+</Column>
+<Column name="Patient_Ward_Ward_No" id="77B5AE4B-BFA6-8924-5F53-C6C80EB39FB2">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>03AB085F-96B6-9340-C2EE-9CC445AD4889</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="177F6F4D-465E-7665-EB30-F4244D4C54C1" referredColumn="7936630E-72AB-7B10-D2B5-EBF56A1B870E"/>
+</associations>
+</Column>
+<Column name="Patient_Medical_aid_Medical_no" id="92BD50F0-4135-C7D9-8E4F-B3822A700B0B">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>8B5FF7E1-B605-BB36-2A93-F5AE1BE3A0E8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="177F6F4D-465E-7665-EB30-F4244D4C54C1" referredColumn="8B01D51C-60E5-F18C-183B-D123A5461846"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="246A1B8F-4769-E362-CC13-B7D75A31FEF7" name="Consultation_PK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>8364DA1F-1874-97C7-4915-B08E32FA5A7C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC7AD299-F74B-7F6A-AE40-CA7D4D6F9BD7"/>
+<colUsage columnID="1628CABF-BF87-7E0E-C495-C33D8F9252E5"/>
+<colUsage columnID="65310B35-A31B-0AF1-997F-2165FE2FDFD0"/>
+<colUsage columnID="77B5AE4B-BFA6-8924-5F53-C6C80EB39FB2"/>
+<colUsage columnID="92BD50F0-4135-C7D9-8E4F-B3822A700B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0129BCF9-02C4-9142-40D3-BE7503D95B6D" name="Consultation_Doctor_FK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>C941D824-65C1-8B1D-9ABD-D3CF18625302</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1628CABF-BF87-7E0E-C495-C33D8F9252E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30FBC1B3-1B99-536E-5352-4D129029AE28" name="Consultation_Patient_FK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>6E608932-D672-2B82-98F5-9193609EDCDE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65310B35-A31B-0AF1-997F-2165FE2FDFD0"/>
+<colUsage columnID="77B5AE4B-BFA6-8924-5F53-C6C80EB39FB2"/>
+<colUsage columnID="92BD50F0-4135-C7D9-8E4F-B3822A700B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

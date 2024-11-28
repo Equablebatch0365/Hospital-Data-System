@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69B989A9-C958-9CBA-113B-81A112218C57" name="Product_Category">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>9103A8CB-65D8-4D1A-5A80-9EC811A03EEA</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CategoryID" id="B43D3D18-4941-8AD6-22D5-A258068F984C">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>6178EB19-B59A-4B97-0AA7-6802DCA20749</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CategoryName" id="91AA1A5D-B163-83E8-93AE-643D24CE53C6">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>76BEF9BF-9F6F-D99F-9244-13E57048B11F</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_ProductID" id="D3D8EF6C-501F-E788-897E-2FB9D3395D42">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:52:35 UTC</createdTime>
+<generatorID>009DE6AC-E849-41EF-88F1-2D9A51F0E8E5</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BA037DF-F345-349D-9B7B-7F7C1B3E0C01" referredColumn="82C9BA55-2006-F10F-9B21-635BA1C548C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C635DBE-6712-FE1E-5AB9-21DAA2443864" name="Product_Category_PK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:00:44 UTC</createdTime>
+<generatorID>841412B7-A578-7668-D896-912CD6CC567F</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B43D3D18-4941-8AD6-22D5-A258068F984C"/>
+<colUsage columnID="D3D8EF6C-501F-E788-897E-2FB9D3395D42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE002BB8-97EA-2937-B221-5DA077C309AB" name="Product_Category_Product_FK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:52:35 UTC</createdTime>
+<generatorID>F721A16E-B238-BF7D-E5BA-4E5D19437DFD</generatorID>
+<ownerDesignName>Info system</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3D8EF6C-501F-E788-897E-2FB9D3395D42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

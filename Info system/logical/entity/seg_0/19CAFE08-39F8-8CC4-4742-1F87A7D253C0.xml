@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19CAFE08-39F8-8CC4-4742-1F87A7D253C0" name="Product">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:55:25 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="E36BAF72-CCDD-3DB0-48F8-A3BDE8D443FA">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:55:56 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductName" id="96D45821-1BE7-8D56-6F30-AE8B4E7D5739">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:56:18 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="7C7742EA-89E8-97D6-CAB7-1968AC1F58E7">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:44:14 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VAT" id="F1992082-4AE6-F33A-7ADC-7B87D22A6281">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:44:22 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="556A4275-8BC2-95BF-0905-FA4E4EB3FAA5">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 19:44:30 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16114FA9-F631-946A-9679-F87CD06BB77C" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-09-15 18:57:40 UTC</createdTime>
+<ownerDesignName>Info system</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9CD44458-2C85-E78E-29C1-A861CD4B2FBE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E36BAF72-CCDD-3DB0-48F8-A3BDE8D443FA</newElementsIDs>
+<usedAttributes>
+<attributeRef>E36BAF72-CCDD-3DB0-48F8-A3BDE8D443FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

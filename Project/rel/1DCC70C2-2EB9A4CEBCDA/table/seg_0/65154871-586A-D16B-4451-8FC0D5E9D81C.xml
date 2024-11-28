@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65154871-586A-D16B-4451-8FC0D5E9D81C" name="Prescription">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>E8813A2B-9197-FDE7-0A9F-88738425A7B1</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PrescripID" id="9BC5FF80-4EF6-579F-0CDE-FFB770DD6973">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>669B7964-C124-C172-F94E-F29E1F518A6A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="370DC507-41F1-A09A-F84B-3A9F4FE18511">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>7808750A-EEC1-1B48-EF59-20FC23B27FA4</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dosage" id="BCF383A2-813E-D883-2AD6-A30F566BECF4">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>925E45D7-E817-E999-2082-088B69F64A44</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Frequency" id="468E4793-AE5B-1177-7D60-2446EF658621">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>37B48D91-536C-D2CD-4D8E-C0CA023C9D90</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SideEffect" id="938621D0-FAE0-52E5-E234-9D7BDF704F6E">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>BC9C81E9-AD05-FAF3-C932-12E592C49514</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doctor_Doctor_ID" id="AB0878CA-3E3A-D8A8-EF73-36A468EE8563">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-25 19:31:47 UTC</createdTime>
+<generatorID>7EACC99F-5FCD-E59D-0D41-28F9D8635C61</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CC8343E-05B8-31DB-ACC5-5983D2664019" referredColumn="757B7667-1938-BEBC-07E1-EF0BB09B220A"/>
+</associations>
+</Column>
+<Column name="DoctorID" id="7E57C43C-8781-7C64-707B-9BE2666F0461">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-25 19:36:11 UTC</createdTime>
+<generatorID>8274F3DD-C52D-E326-A3B4-2E4CC8609951</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doctor_Doctor_ID2" id="74534248-C16B-DE0F-EEAE-6897279BD071">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-25 19:36:11 UTC</createdTime>
+<generatorID>B0AB0BD8-8BAE-4F5D-2F75-7889303A3C61</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45D10909-A1FF-64E7-AE88-5A2FE4F27CA1" name="Prescription_PK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:33:32 UTC</createdTime>
+<generatorID>64E8D605-B7C0-771D-AD07-E34B3A1D297D</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BC5FF80-4EF6-579F-0CDE-FFB770DD6973"/>
+<colUsage columnID="74534248-C16B-DE0F-EEAE-6897279BD071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38FD39FF-131F-844B-4685-31A5DDBE2E32" name="Prescription_Doctor_FK">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-25 19:31:47 UTC</createdTime>
+<generatorID>B73C8094-66E7-CD5B-36B8-8BB0AEDF6C32</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB0878CA-3E3A-D8A8-EF73-36A468EE8563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB639DBD-2487-A3D9-748E-0E92C79C1823" name="Payment">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:18:53 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Payment_no" id="B2B900B5-FDAD-2F31-57B5-4891EE69C774">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:19:12 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="CD935F2A-EF1B-661A-CB6A-1FDA58F77AD9">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:19:12 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="FF9ADB21-4B7C-DB3A-04A8-7623CA743956">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:19:12 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient_ID" id="7BF7B9A6-24C1-F2B7-AF8A-B1E43162D1F2">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:24:50 UTC</createdTime>
+<generatorID>03835AEA-E690-4295-C13C-6ACCF64FBDA6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<referedAttribute>1DC516D2-260C-F5F6-7E59-C788230B92A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ward_No1" id="0DB1A07E-00C6-C237-C97C-520BC171BB10">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:24:50 UTC</createdTime>
+<generatorID>03835AEA-E690-4295-C13C-6ACCF64FBDA6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<referedAttribute>CA894BDF-C0BF-7428-EAD9-B207305B6AA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Medical_no" id="EC2EB3D1-AFA5-ABE0-1BC3-D3E0311534B5">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-24 07:24:50 UTC</createdTime>
+<generatorID>03835AEA-E690-4295-C13C-6ACCF64FBDA6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="true"/>
+</engineerTo>
+<referedAttribute>ABD3E970-B4FB-93BB-17B9-1BFFB8EFE821</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BFC32F8-CC00-F965-B500-43294CBF1038" name="Key_1">
+<createdBy>Dell User</createdBy>
+<createdTime>2024-10-20 20:20:39 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1DCC70C2-BCC9-A1F9-FF59-2EB9A4CEBCDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B2B900B5-FDAD-2F31-57B5-4891EE69C774,03835AEA-E690-4295-C13C-6ACCF64FBDA6</newElementsIDs>
+<usedAttributes>
+<attributeRef>B2B900B5-FDAD-2F31-57B5-4891EE69C774</attributeRef>
+<attributeRef>7BF7B9A6-24C1-F2B7-AF8A-B1E43162D1F2</attributeRef>
+<attributeRef>0DB1A07E-00C6-C237-C97C-520BC171BB10</attributeRef>
+<attributeRef>EC2EB3D1-AFA5-ABE0-1BC3-D3E0311534B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
