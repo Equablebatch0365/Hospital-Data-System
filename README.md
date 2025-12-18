@@ -108,7 +108,8 @@ Patient ──┬── Doctor
 - Oracle Database 11g or higher (or compatible SQL database)
 - SQL client (SQL*Plus, SQL Developer, or similar)
 - Git
-
+- Live SQL Server
+  
 ### Clone the Repository
 ```bash
 git clone https://github.com/Equablebatch0365/Hospital-Data-System.git
