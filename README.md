@@ -237,11 +237,11 @@ Hospital-Data-System/
 **Academic Context**: This project was completed as part of a first-year Information Systems course (Group 17).
 
 **Original Contributors**:
-- Mokekoloana Modiba - 224813838
-- Linda Skhosana - 224494481
-- Vuyelo Hlungwane - 224482815
-- Lesedi Motau - 240741684
-- Jessica Sewape - 223606766
+- Mokekoloana Modiba 
+- Linda Skhosana
+- Vuyelo Hlungwane
+- Lesedi Motau
+- Jessica Sewape
 
 **Purpose**: Educational demonstration of database design principles, SQL implementation, and relational database management concepts.
 
